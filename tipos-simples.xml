@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<coches xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="tipossimples.xsd" modelo="bmw">
+    <marca>BMW</marca>
+    <matricula>5968 CHC</matricula>
+    <año>2003</año>
+</coches>
