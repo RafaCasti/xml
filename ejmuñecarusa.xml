@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<alumno xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="ejmuñecarusa.xsd">
+    <nombre>Manuel</nombre>
+    <apellidos>Lopez jimenez</apellidos>
+    <edad>25</edad>
+    <matricula>22</matricula>
+</alumno>
