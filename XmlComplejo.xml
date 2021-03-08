@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<persona xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="SchemaComplejo.xsd"/>
+    <nombre>Manuel</nombre>
+    <apellidos>Lopez jimenez</apellidos>
+    <edad>24-09-2011</edad>
+    <telefono>957389478</telefono>
+</persona>

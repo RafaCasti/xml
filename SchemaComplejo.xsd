@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<!--Elementos Simples-->
+<xs:element name="nombre">
+    <xs:simpleType>
+         <xs:restriction base="xs:integer">
+             <xs:minInclusive value="4"/>
+             <xs:maxInclusive value="15"/>
+         </xs:restriction>
+    </xs:simpleType>
+</xs:element>
+
+<xs:element name="apellidos">
+    <xs:simpleType>
+         <xs:restriction base="xs:integer">
+             <xs:minInclusive value="4"/>
+             <xs:maxInclusive value="30"/>
+         </xs:restriction>
+    </xs:simpleType>
+</xs:element>
+
+<xs:element name="edad" type="xs:date">
+    <xs:simpleType>
+         <xs:restriction base="xs:integer">
+             <xs:minInclusive value="12"/>
+             <xs:maxInclusive value="70"/>
+         </xs:restriction>
+    </xs:simpleType>
+</xs:element>
+
+<xs:element name="telefono">
+    <xs:simpleType>
+         <xs:restriction base="xs:string">
+            <xs:whiteSpace value="preserve"/>
+            <xs:pattern value="9"/>
+         </xs:restriction>
+    </xs:simpleType>
+</xs:element>
+
+<!--Elementos Complejos-->
+    <xs:element name="persona">
+         <xs:complexType>
+            <xs:sequence>
+             <xs:element name="nombre"/>
+             <xs:element name="apellidos"/>
+             <xs:element name="edad"/>
+             <xs:element name="telefono"/>
+            </xs:sequence>
+         </xs:complexType>
+    </xs:element>
+  </xs:schema>
