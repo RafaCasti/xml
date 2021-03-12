@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<agenda xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="elementos.xsd">
+<contacto>
+    <nombre>Manuel</nombre>
+    <apellido>Lopez</apellido>
+    <telefono>957389478</telefono>
+    <edad>120</edad>
+    <genero>Masculino</genero>
+    <email>elementos@elementos.com</email>
+</contacto>
+</agenda>
