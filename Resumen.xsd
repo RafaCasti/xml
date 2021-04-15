@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="Tecnologias-XML">
+    <xs:simpleType>
+         <xs:restriction base="xs:integer">
+             <xs:minInclusive value="4"/>
+             <xs:maxInclusive value="15"/>
+         </xs:restriction>
+    </xs:simpleType>
+</xs:element>
+
+<xs:element name="Estado-XML">
+    <xs:simpleType>
+         <xs:restriction base="xs:integer">
+             <xs:minInclusive value="4"/>
+             <xs:maxInclusive value="30"/>
+         </xs:restriction>
+    </xs:simpleType>
+</xs:element>
+
+<xs:element name="Consideraciones-XML">
+    <xs:simpleType>
+         <xs:restriction base="xs:string">
+             <xs:minInclusive value="6"/>
+             <xs:maxInclusive value="70"/>
+         </xs:restriction>
+    </xs:simpleType>
+</xs:element>
+
+<xs:element name="Formas-de-almacenamiento-XML">
+    <xs:simpleType>
+         <xs:restriction base="xs:string">
+            <xs:whiteSpace value="preserve"/>
+            <xs:pattern value="9"/>
+         </xs:restriction>
+    </xs:simpleType>
+</xs:element>
+
+<xs:element name="Pros-Contras-XML">
+    <xs:simpleType>
+         <xs:restriction base="xs:string">
+            <xs:whiteSpace value="preserve"/>
+            <xs:pattern value="9"/>
+         </xs:restriction>
+    </xs:simpleType>
+</xs:element>
+
+    <xs:element name="Documentos-XML">
+         <xs:complexType>
+            <xs:sequence>
+             <xs:element name="Tecnologias-XML"/>
+             <xs:element name="Estado-XML"/>
+             <xs:element name="Consideraciones-XML"/>
+             <xs:element name="Formas-de-almacenamiento-XML"/>
+             <xs:element name="Pros-Contras-XML"/>
+            </xs:sequence>
+         </xs:complexType>
+    </xs:element>
+  </xs:schema>
